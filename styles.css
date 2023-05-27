@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Press Start 2P";
+    src: url(https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color: #fff;
+    background-image: url("background.gif");
+    background-size: cover;
+    background-color: #000;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 16px; 
+}
+
+#card {
+    margin: auto;
+    background-color: #000;
+    border: solid 1.6px #fff;
+    box-shadow: 0 1.6rem 4.8rem #0000004d;
+    border-radius: 12.8px; 
+    overflow: hidden;
+    position: relative;
+}
+
+#nav {
+    background-color: #000;
+    border-bottom: solid 1.6px white; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+#title {
+    padding: 16px;
+    margin: 0;
+    color: white;
+    font-size: 19.2px; 
+}
+
+#window-controls {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12.8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.window-button {
+    width: 19.2px;
+    height: 19.2px;
+    margin-left: 9.6px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+}
+
+.minimize {
+    background-color: #ff7f00;
+}
+
+.maximize {
+    background-color: #00af00;
+}
+
+.close {
+    background-color: #ff0000;
+}
+
+#text {
+    width: 90%;
+    max-width: 480px;
+    height: auto;
+    padding: 16px; 
+}
